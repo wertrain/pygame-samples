@@ -1,0 +1,12 @@
+ï»¿@echo off
+:: Œ»İ‚ÌƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®
+cd /d %~dp0
+:: virtualenv ‚ğ‹N“®
+call Scripts\activate
+:: Visual Studio Code ‚ğ‹N“®
+:: ‚±‚±‚©‚ç‹N“®‚·‚é‚±‚Æ‚Å Visual Studio Code “à‚ÅƒfƒoƒbƒOÀs‰Â”\‚É‚È‚é
+call code
+:: ‘Ò‹@‚Ö
+cmd /k
+:: virtualenv ‚ğI—¹
+:: call Scripts\deactivate.bat
