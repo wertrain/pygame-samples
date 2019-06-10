@@ -1,4 +1,4 @@
-ï»¿@echo off
+@echo off
 :: Œ»Ý‚ÌƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®
 cd /d %~dp0
 :: virtualenv ‚ð‹N“®
